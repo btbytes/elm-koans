@@ -6,6 +6,7 @@ import TestHelpers exposing (..)
 
 
 testSuite =
+    let xBool = True in
   suite
     "About Asserts"
     [ test "assert tests for a true value"
